@@ -67,7 +67,7 @@ jobs:
           git config --global user.email jemo496@gmail.com 
           git config --global user.name Mugo254 
           git status
-          git remote add origin https://${{secrets.commit_secret}}@github.com/Mugo254/Flutter_host 
+          git remote add origin https://${{secrets.commit_secret}}@github.com/Mugo254/Flutter_host.git 
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
